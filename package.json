@@ -1,0 +1,48 @@
+{
+  "name": "ng2-electron-scaffold",
+  "version": "1.0.0",
+  "description": "Scaffolding Angular 2 with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"electron .\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaytalium/ng2-electron-scaffold.git"
+  },
+  "keywords": [
+    "Property",
+    "Management",
+    "knymbus",
+    "Apps",
+    "KPMA"
+  ],
+  "author": "Ovel Heslop",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "@angular/upgrade": "*",
+    "angular-in-memory-web-api": "*",
+    "core-js": "*",
+    "reflect-metadata": "*",
+    "rxjs": "*",
+    "systemjs": "*",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@types/core-js": "*",
+    "@types/node": "*",
+    "concurrently": "*",
+    "typescript": "*",
+    "electron": "*"
+  }
+}
