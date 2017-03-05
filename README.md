@@ -1,7 +1,7 @@
 # ng2-electron-scaffold
 
 [![Build Status](https://travis-ci.org/kaytalium/ng2-electron-scaffold.svg?branch=master)](https://travis-ci.org/kaytalium/ng2-electron-scaffold)
-[![license](https://img.shields.io/github/license/kaytalium/ng2-electron-scaffold.svg)]()
+[![license](https://img.shields.io/github/license/kaytalium/ng2-electron-scaffold.svg)](LICENSE)
 [![GitHub tag](https://img.shields.io/github/tag/kaytalium/ng2-electron-scaffold.svg)]()
 
 Using Angular 2 with Electron to create a desktop application 
