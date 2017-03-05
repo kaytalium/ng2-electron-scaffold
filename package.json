@@ -1,6 +1,6 @@
 {
   "name": "ng2-electron-scaffold",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffolding Angular 2 with Electron",
   "main": "main.js",
   "scripts": {
