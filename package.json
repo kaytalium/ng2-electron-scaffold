@@ -6,7 +6,8 @@
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"electron .\" ",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "build": "electron-packager . --overwrite --out=src  --version-string.ProductName=\"mg2 Electron Angular app\""
   },
   "repository": {
     "type": "git",
@@ -35,8 +36,10 @@
   "devDependencies": {
     "@types/core-js": "*",
     "@types/node": "*",
+    "@types/jasmine": "^2.5.43",
     "concurrently": "*",
     "typescript": "*",
-    "electron": "*"
+    "electron": "*",
+    "electron-packager": "^8.5.2"    
   }
 }
