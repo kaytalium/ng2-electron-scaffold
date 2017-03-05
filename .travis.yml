@@ -4,8 +4,7 @@ node_js:
 - '6'
 
 script:
-  - npm start
-  - ./node_modules/.bin/karma start --single-run --browsers Firefox --reporters mocha
+ - ./node_modules/.bin/karma start --single-run --browsers Firefox --reporters mocha
   - node tools/run-typings-test.js
   
   
