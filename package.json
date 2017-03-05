@@ -10,15 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaytalium/ng2-electron-scaffold.git"
+    "url": "https://github.com/kaytalium/ng2-electron-scaffold.git"
   },
-  "keywords": [
-    "Property",
-    "Management",
-    "knymbus",
-    "Apps",
-    "KPMA"
-  ],
+  "keywords": [],
   "author": "Ovel Heslop",
   "license": "MIT",
   "dependencies": {
