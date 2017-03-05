@@ -4,11 +4,8 @@ node_js:
 - '6'
 
 script:
-  - npm run build
+  - npm start
   - ./node_modules/.bin/karma start --single-run --browsers Firefox --reporters mocha
-  
-  - npm run build_npm
-  
   - node tools/run-typings-test.js
   
   
