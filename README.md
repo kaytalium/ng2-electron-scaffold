@@ -12,8 +12,8 @@ After the project is download make sure to npm run tsc then npm serve.
 
 ```javascript
 
-npm run tsc
-npm start
+$ npm run tsc
+$ npm start
 
 ```
 
